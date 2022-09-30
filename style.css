@@ -31,6 +31,7 @@ h1 {
 }
 
 .outer {
+  flex-wrap: wrap;
   justify-content: center;
   display: flex;
   margin: 2%;
@@ -40,7 +41,7 @@ h1 {
   background-color: white;
   border: 8px solid black;
   border-radius: 10%;
-  width: 50rem;
+  width: 43rem;
   height: 50rem;
   margin: 2%;
   align-content: flex-end;
