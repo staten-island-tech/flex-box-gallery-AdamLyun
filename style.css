@@ -13,6 +13,11 @@ body,
   margin: 0%;
   text-align: left;
   font-size: 200%;
+   border-radius: 5%;
+   transition: all 0.3s ;
+}
+.button:hover{
+  transform: scale(1.5);
 }
 body {
   background-color: bisque;
@@ -31,6 +36,7 @@ h1 {
   border: 6px solid black;
   width: 50%;
   height: auto;
+  border-radius: 40%;
   margin: 30px auto;
   position: relative;
 }
@@ -305,4 +311,20 @@ img {
 .hvr-skew-backward:hover, .hvr-skew-backward:focus, .hvr-skew-backward:active {
   -webkit-transform: skew(10deg);
   transform: skew(10deg);
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+  
 }
