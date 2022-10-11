@@ -329,3 +329,32 @@ img {
   
 }
 
+@media screen and (max-width:1366px) {
+  .inner{
+    margin: 1rem;
+    width: 33rem;
+    height: 40rem;
+  }
+}
+@media screen and (max-width:820px    ) {
+  .inner{
+    margin: 2rem;
+  }
+  .starter {
+    font-size: 450%;
+  }
+  .inner{
+    margin: 2rem;
+    width: 40rem;
+    height: 47rem;
+  }
+}
+@media screen and (max-width:390px) {
+  .starter {
+    font-size: 400%;
+  }
+  .inner{
+    margin: 3rem;
+  }
+
+}
